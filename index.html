@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akash Kumar Maurya | Portfolio</title>
+<meta name="description" content="Portfolio of Akash Kumar Maurya, Computer Science student, robotics maker, musician and artist.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600&family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=10">
+</head>
+<body>
+
+<canvas id="swarm"></canvas>
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="lightbox" id="lightbox"><img alt=""></div>
+
+<nav class="nav">
+  <button class="nav-toggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+  <div class="nav-links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#wins">Wins</a>
+    <a href="#builds">Builds</a>
+    <a href="#music">Music &amp; Art</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="top">
+  <div class="ghost" aria-hidden="true">
+    <span class="ghost-stroke">PORTFOLIO</span>
+    <span class="ghost-fill">PORTFOLIO</span>
+  </div>
+
+  <div class="hero-grid">
+    <div class="hero-main">
+      <p class="hello rb" data-rebuild data-label="TEXT">Hello, I am</p>
+      <h1 class="name-block rb" data-rebuild data-label="HEADING">
+        <span>AKASH</span><span>MAURYA</span>
+      </h1>
+      <p class="mono tagline rb" data-rebuild data-label="TAG"><b></b> CS STUDENT | ROBOTICS | MUSICIAN | PAINTER / ARTIST</p>
+      <p class="lead rb" data-rebuild data-label="PARAGRAPH">I solve problems, build projects and take apart how the internet works, from Arduino robots to web pages, from guitar and drums to canvas paintings.</p>
+      <div class="cta rb" data-rebuild data-label="BUTTONS">
+        <a href="#contact" class="btn btn-red" data-cursor>GET IN TOUCH &rarr;</a>
+        <a href="#wins" class="btn btn-line" data-cursor>MY WINS</a>
+      </div>
+      <div class="stats rb" data-rebuild data-label="STATS">
+        <div><strong>72</strong><span class="mono">AIR / HPE CODEWARS</span></div>
+        <div><strong>3&times;</strong><span class="mono">FIRST PLACES</span></div>
+        <div><strong>10</strong><span class="mono">YEARS OF GUITAR</span></div>
+      </div>
+    </div>
+
+    <div class="hero-photo rb" data-rebuild data-label="IMAGE · 4:5" id="photo">
+      <img src="assets/img/me.jpg" alt="Akash Kumar Maurya" onerror="this.remove()">
+      <div class="mono-mark">AKM</div>
+      <span class="corner tl"></span><span class="corner br"></span>
+    </div>
+
+    <ol class="hero-side rb" data-rebuild data-label="LIST">
+      <li><span class="mono">01 / BUILD</span><b>Web, Python &amp; C</b><small>HTML, CSS, Python, C. Always shipping something.</small></li>
+      <li><span class="mono">02 / MAKE</span><b>Robotics</b><small>Microcontrollers, modules, robots that win.</small></li>
+      <li><span class="mono">03 / CREATE</span><b>Music &amp; Art</b><small>Guitar, drums, singing, canvas painting.</small></li>
+    </ol>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <p class="mono sec-label">// 01.00 SEC_ABOUT</p>
+  <h2 class="title rb" data-rebuild data-label="HEADING">Background &amp; Philosophy</h2>
+  <div class="about-grid">
+    <div class="about-text rb" data-rebuild data-label="PARAGRAPH">
+      <p>Hi! My name is <b>Akash Kumar Maurya</b> and I am currently pursuing a Bachelor's degree in Computer Science at <b>Symbiosis Institute of Technology, Nagpur</b>. I am passionate about web development and enjoy learning about new technologies.</p>
+      <p>I am a first year student and I love solving problems, building projects and exploring how the world of the internet works. Outside code I play guitar and drums, sing, and paint on canvas.</p>
+      <blockquote class="quote">Solving problems, building projects, and finding out how the internet really works.</blockquote>
+    </div>
+    <div class="now-wrap">
+      <ol class="now rb" data-rebuild data-label="LIST">
+        <li class="mono sub">NOW_LEARNING</li>
+        <li><span class="mono">F1</span><b>Data structures &amp; algorithms</b></li>
+        <li><span class="mono">F2</span><b>Git &amp; GitHub</b></li>
+        <li><span class="mono">F3</span><b>App development</b></li>
+        <li><span class="mono">F4</span><b>AI tools &amp; GenAI</b></li>
+        <li><span class="mono">F5</span><b>AI agents on Microsoft Azure</b></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="section" id="skills">
+  <p class="mono sec-label">// 02.00 SEC_SKILLS</p>
+  <h2 class="title rb" data-rebuild data-label="HEADING">Skill Matrix</h2>
+  <div class="cells cells-2">
+    <article class="cell glow rb" data-rebuild data-label="CARD">
+      <span class="chip">CORE STACK</span>
+      <h3>What I work with</h3>
+      <ul class="tags">
+        <li>Advanced HTML with CSS</li><li>Python</li><li>C</li>
+        <li>Arduino &amp; building projects from scratch</li>
+        <li>Operating systems &amp; computer systems</li>
+      </ul>
+    </article>
+    <article class="cell glow rb" data-rebuild data-label="CARD">
+      <span class="chip">IN PROGRESS</span>
+      <h3>What I'm levelling up</h3>
+      <ul class="tags">
+        <li>Data structures &amp; algorithms</li>
+        <li>Git &amp; GitHub</li>
+        <li>App development</li>
+        <li>AI tools &amp; GenAI</li>
+        <li>Developing AI agents with Microsoft Azure</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- ================= WINS ================= -->
+<section class="section" id="wins">
+  <p class="mono sec-label">// 03.00 SEC_FLAGSHIP</p>
+  <h2 class="title rb" data-rebuild data-label="HEADING">Flagship Wins</h2>
+  <p class="sub-title mono rb" data-rebuild data-label="TEXT">Podiums, ranks and stages.</p>
+
+  <!-- EUPHONY -->
+  <article class="feat flagship glow rb" data-rebuild data-label="FEATURED">
+    <div class="feat-text">
+      <span class="chip chip-red">LATEST · 2026</span>
+      <h3>EUPHONY</h3>
+      <p class="fl-sub">First place at Euphony, part of the Culturals at <b>Atharv Ranbhoomi</b>, <b>IIM Indore</b> 2026.</p>
+      <p class="info">Atharv Ranbhoomi is IIM Indore's annual fest, organised entirely by students of its Integrated Programme in Management. Its cultural side (Atharv) and sports side (Ranbhoomi) were merged into one fest in 2023, and music contests like Euphony sit at the centre of the Culturals line-up.</p>
+      <div class="fl-stat"><strong>1st</strong><span class="mono">PLACE · CULTURALS · 2026</span></div>
+    </div>
+    <div class="feat-media two">
+      <img class="zoom" src="assets/img/euphony-cert.jpg" alt="Euphony 1st place certificate, Atharv Ranbhoomi 2026">
+      <img class="zoom" src="assets/img/euphony-team.jpg" alt="At IIM Indore after the Euphony win" style="object-position:50% 40%">
+    </div>
+  </article>
+
+  <!-- HPE -->
+  <article class="feat glow rb" data-rebuild data-label="FEATURED">
+    <div class="feat-media one">
+      <img class="zoom" src="assets/img/hpe-cert.jpg" alt="HPE CodeWars 2023 rank certificate">
+    </div>
+    <div class="feat-text">
+      <span class="chip">HPE CODEWARS 2023</span>
+      <strong class="big-red">AIR 72</strong>
+      <h4>Code Battle · Rank certificate</h4>
+      <p class="fl-sub">Rank 72 out of 14,000 participants, secured in Grade 10 while representing The Orbis School.</p>
+      <p class="info">HPE CodeWars is Hewlett Packard Enterprise's India coding competition for school students, run with Codingal. The certificate is signed by Mandar Chitale, India R&amp;D Operations Lead at HPE, and Vivek Prakash, Co-founder and CEO of Codingal.</p>
+    </div>
+  </article>
+
+  <!-- ROBOCUP -->
+  <article class="feat rev glow rb" data-rebuild data-label="FEATURED">
+    <div class="feat-text">
+      <span class="chip">ROBOCUP JUNIOR</span>
+      <strong class="big-red">1st · Winner · Asia</strong>
+      <h4>Western Region, National &amp; Asia-Pacific qualifier</h4>
+      <ol class="steps">
+        <li><span class="mono">01</span><div><b>Western Region: First place</b><small>RoboCupJunior Onstage, 2022-23. Hosted at S.B. Patil Public School, Ravet (16 January 2023). Trophies also for Best Team Work and Overall Best Performance.</small></div></li>
+        <li><span class="mono">+</span><div><b>Best Programming Skill: Onstage</b><small>Also awarded Best Programming Skill in the Onstage competition at the Pune Regional RoboCup Junior, as Team TOS 1 of The Orbis School, Keshav Nagar.</small></div></li>
+        <li><span class="mono">02</span><div><b>National level: Winner</b><small>Won the Robocup national level competition.</small></div></li>
+        <li><span class="mono">03</span><div><b>International qualifier</b><small>Qualified for the Asia-level round (RoboCup Asia-Pacific) in South Korea.</small></div></li>
+      </ol>
+      <p class="info">RoboCup is the world's largest robotics competition for students and researchers, and RoboCupJunior is its school-level league, where teams compete in Soccer, Rescue and Onstage (robot performances). Regional winners advance through nationals to the Asia-Pacific round.</p>
+    </div>
+    <div class="feat-media two three">
+      <img class="zoom" src="assets/img/robocup-trophies.jpg" alt="RoboCup Junior Western Region trophies">
+      <img class="zoom" src="assets/img/robocup-sign.jpg" alt="RoboCup Regional Competition board, 16 January 2023">
+      <img class="zoom" src="assets/img/robocup-skill-award.jpg" alt="Best Programming Skill award, Indian RoboCup Junior Foundation">
+    </div>
+  </article>
+
+  <!-- SOF -->
+  <div class="cells cells-2">
+    <article class="cell glow rb" data-rebuild data-label="CARD">
+      <span class="chip">SOF</span>
+      <strong class="big-red">AG · AU</strong>
+      <h4>NCO &amp; NSO · Silver and Gold medallist</h4>
+      <p class="info">Run by the Science Olympiad Foundation: the National Cyber Olympiad (NCO, computers and IT) and the National Science Olympiad (NSO). Silver in NCO, Gold in NSO.</p>
+    </article>
+    <article class="cell glow rb" data-rebuild data-label="CARD">
+      <span class="chip">RANGE</span>
+      <strong class="big-red">3 FIELDS</strong>
+      <h4>Code, robots and music</h4>
+      <p class="info">From competitive coding and olympiads to robotics podiums and a first place on a music stage.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ================= BUILDS ================= -->
+<section class="section" id="builds">
+  <p class="mono sec-label">// 04.00 SEC_BUILDS</p>
+  <h2 class="title rb" data-rebuild data-label="HEADING">Build Log: The Robot</h2>
+  <p class="sub-title mono rb" data-rebuild data-label="TEXT">Arduino UNO &middot; flame sensors &middot; servo nozzle &middot; water tank</p>
+  <div class="gallery">
+    <figure class="g-wide rb" data-rebuild data-label="IMAGE"><img class="zoom" src="assets/img/robot-top.jpg" alt="Robot from above" loading="lazy"></figure>
+    <figure class="g-tall rb" data-rebuild data-label="IMAGE"><img class="zoom" src="assets/img/robot-front.jpg" alt="Robot front view" loading="lazy"></figure>
+    <figure class="g-tall rb" data-rebuild data-label="IMAGE"><img class="zoom" src="assets/img/robot-side2.jpg" alt="Robot at the competition" loading="lazy"></figure>
+    <figure class="rb" data-rebuild data-label="IMAGE"><img class="zoom" src="assets/img/robot-sensors.jpg" alt="Robot sensor array" loading="lazy"></figure>
+    <figure class="rb" data-rebuild data-label="IMAGE"><img class="zoom" src="assets/img/robot-side.jpg" alt="Robot side view" loading="lazy"></figure>
+  </div>
+  <p class="info gallery-note">Built from scratch on a four-wheel acrylic chassis: an Arduino UNO with a motor driver, three flame sensors at the front, and a servo that aims a water nozzle fed from a tank on the back.</p>
+
+  <h3 class="sub-h rb" data-rebuild data-label="HEADING">Build 02</h3>
+  <div class="gallery gallery-3">
+    <figure class="rb" data-rebuild data-label="IMAGE"><img class="zoom" src="assets/img/robot2-top.jpg" alt="Second robot from above" loading="lazy"></figure>
+    <figure class="rb" data-rebuild data-label="IMAGE"><img class="zoom" src="assets/img/robot2-angle.jpg" alt="Second robot, angled view" loading="lazy"></figure>
+    <figure class="rb" data-rebuild data-label="IMAGE"><img class="zoom" src="assets/img/robot2-side.jpg" alt="Second robot, side view" loading="lazy"></figure>
+  </div>
+  <p class="info gallery-note">The second version: an Arduino Mega board, a larger servo on the front and a metal tank on the back, wired on the same four-wheel chassis.</p>
+</section>
+
+<!-- ================= MUSIC & ART ================= -->
+<section class="section" id="music">
+  <p class="mono sec-label">// 05.00 SEC_MUSIC_ART</p>
+  <h2 class="title rb" data-rebuild data-label="HEADING">Music &amp; Art</h2>
+
+  <article class="academy glow rb" data-rebuild data-label="FEATURED">
+    <div>
+      <span class="chip">TRAINED AT</span>
+      <h3>Achievers Music Academy, Pune</h3>
+      <p class="info">A Pune music school running since 2006 that teaches guitar, drums, keyboard, violin, flute and vocals, along with aural (ear) training. This is where I learnt both guitar and drums.</p>
+    </div>
+    <div class="exp">
+      <div><strong>10</strong><span class="mono">YRS · GUITAR</span></div>
+      <div><strong>4</strong><span class="mono">YRS · DRUMS</span></div>
+    </div>
+  </article>
+
+  <div class="cells cells-3">
+    <article class="cell glow rb" data-rebuild data-label="CARD"><span class="chip">H.01</span><h4>Singing</h4><p>Vocals alongside the guitar, and on stage at Euphony.</p></article>
+    <article class="cell glow rb" data-rebuild data-label="CARD"><span class="chip">H.02</span><h4>Painter / Artist</h4><p>Canvas painting and many artworks made over the years.</p></article>
+    <article class="cell glow rb" data-rebuild data-label="CARD"><span class="chip">H.03</span><h4>Robotics</h4><p>Robots with microcontrollers and modules.</p></article>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section class="section" id="education">
+  <p class="mono sec-label">// 06.00 SEC_EDUCATION</p>
+  <h2 class="title rb" data-rebuild data-label="HEADING">Education</h2>
+  <div class="rows">
+    <div class="row glow rb" data-rebuild data-label="ROW"><span class="mono">2024</span><b>High School</b><span>The Orbis School, Pune</span><img class="edu-img zoom" src="assets/img/orbis-junior.jpg" alt="The Orbis School, Pune" onerror="this.remove()"></div>
+    <div class="row glow rb" data-rebuild data-label="ROW"><span class="mono">2026</span><b>Intermediate (11th and 12th)</b><span>The Orbis School, Pune</span><img class="edu-img zoom" src="assets/img/orbis-senior.jpg" alt="The Orbis School campus, Pune" onerror="this.remove()"></div>
+    <div class="row glow now rb" data-rebuild data-label="ROW"><span class="mono">2026 – 2030</span><b>B.Tech Computer Science</b><span>Symbiosis Institute of Technology, Nagpur</span><img class="edu-img zoom" src="assets/img/sit.jpg" alt="Symbiosis Institute of Technology, Nagpur" onerror="this.remove()"></div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section contact" id="contact">
+  <p class="mono sec-label">// 07.00 SEC_CONTACT</p>
+  <h2 class="title rb" data-rebuild data-label="HEADING">Let's Build Something</h2>
+  <div class="cells cells-3">
+    <a class="cell glow magnetic rb" data-rebuild data-label="LINK" href="mailto:mrelectronicsarduino@gmail.com"><span class="chip">EMAIL</span><h4>mrelectronicsarduino@gmail.com</h4></a>
+    <a class="cell glow magnetic rb" data-rebuild data-label="LINK" href="tel:+918208463110"><span class="chip">PHONE</span><h4>+91 82084 63110</h4></a>
+    <div class="cell glow magnetic rb" data-rebuild data-label="LINK"><span class="chip">CITY</span><h4>Pune / Nagpur</h4></div>
+  </div>
+  <footer class="mono">&copy; 2026 AKASH KUMAR MAURYA</footer>
+</section>
+
+</main>
+
+<script src="js/main.js?v=10"></script>
+</body>
+</html>
